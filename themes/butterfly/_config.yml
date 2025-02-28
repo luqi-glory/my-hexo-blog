@@ -58,7 +58,7 @@
     - category name: 测试
       img: /img/tech_cover.jpg
     - category name: 机器学习
-      img: /img/Eye.jpg
+      img: /img/download.jpg
   
   footer_img: /img/hack.jpg  # 修改点9：确保 source/img/lq.jpg 存在，否则替换
   
