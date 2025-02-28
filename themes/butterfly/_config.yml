@@ -6,7 +6,7 @@
 # Navigation Settings
 # --------------------------------------
 nav:
-  logo: /img/lq.jpg  # 修改点1：确保 source/img/lq.jpg 存在，否则替换为实际路径
+  logo: 
   display_title: true
   fixed: true
 
@@ -31,32 +31,32 @@ code_blocks:
 
 # Social media links
 social:
-  fab fa-github: https://github.com/xxxxx || Github || '#24292e'  # 修改点2：替换为你的 GitHub
-  fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'  # 修改点3：替换为你的邮箱
+  fab fa-github: https://github.com/luqi-glory/luqi-glory || Github || '#24292e'  # 修改点2：替换为你的 GitHub
+  fas fa-envelope: mailto:luqiglory@gmail.com || Email || '#4a7dbe'  # 修改点3：替换为你的邮箱
 
 # --------------------------------------
 # Image Settings
 # --------------------------------------
-favicon: /img/lq.jpg  # 修改点4：确保 source/img/lq.jpg 存在，否则替换
+# favicon: /img/404.jpg  # 修改点4：确保 source/img/lq.jpg 存在，否则替换
 
 avatar:
-  img: /img/lq.jpg  # 修改点5：确保 source/img/lq.jpg 存在，否则替换
+  img: /img/hack.jpg  # 修改点5：确保 source/img/lq.jpg 存在，否则替换
   effect: true
 
 disable_top_img: false
 
-default_top_img: /img/lq.jpg  # 修改点6：确保 source/img/lq.jpg 存在，否则替换
+default_top_img: /img/hack.jpg  # 修改点6：确保 source/img/lq.jpg 存在，否则替换
 
-index_img: /img/lq.jpg  # 修改点7：确保 source/img/lq.jpg 存在，否则替换
+index_img: /img/hack.jpg  # 修改点7：确保 source/img/lq.jpg 存在，否则替换
 
-archive_img: /img/lq.jpg  # 修改点8：确保 source/img/lq.jpg 存在，否则替换
+archive_img: /img/hack.jpg  # 修改点8：确保 source/img/lq.jpg 存在，否则替换
 
 tag_img:
 tag_per_img:
 category_img:
 category_per_img:
 
-footer_img: /img/lq.jpg  # 修改点9：确保 source/img/lq.jpg 存在，否则替换
+footer_img: /img/hack.jpg  # 修改点9：确保 source/img/lq.jpg 存在，否则替换
 
 background: "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)"
 
@@ -65,16 +65,16 @@ cover:
   aside_enable: true
   archives_enable: true
   default_cover:
-    - /img/lq.jpg  # 修改点10：确保 source/img/lq.jpg 存在，否则替换
+    - /img/AI.jpg  # 修改点10：确保 source/img/lq.jpg 存在，否则替换
 
 error_img:
   flink: /img/friend_404.gif  # 修改点11：确保 source/img/friend_404.gif 存在，否则替换
-  post_page: /img/404.jpg  # 修改点12：确保 source/img/404.jpg 存在，否则替换
+  post_page: /img/hack.jpg  # 修改点12：确保 source/img/404.jpg 存在，否则替换
 
 error_404:
   enable: true
   subtitle: 'Oops! 页面走丢了'
-  background: /img/404_bg.jpg  # 修改点13：确保 source/img/404_bg.jpg 存在，否则替换
+  background: /img/lq.jpg  # 修改点13：确保 source/img/404_bg.jpg 存在，否则替换
 
 post_meta:
   page:
@@ -104,7 +104,7 @@ subtitle:
     typeSpeed: 50
   source: false
   sub:
-    - "欢迎来到我的小世界！"
+    - "人即一切"
     - "Explore, Dream, Discover."
 
 index_layout: 4
@@ -150,7 +150,7 @@ noticeOutdate:
   limit_day: 365
   position: top
   message_prev: "本文已超过"
-  message_next: "天未更新，可能已过时。"
+  message_next: "未更新，可能已过时。"
 
 # --------------------------------------
 # Footer Settings
@@ -357,10 +357,10 @@ lightbox: fancybox  # 修改点20：确保主题支持，否则注释掉
 # --------------------------------------
 # Other Settings
 # --------------------------------------
-fireworks:
-  enable: true
-  zIndex: 9999
-  mobile: false
+# fireworks:
+#   enable: true
+#   zIndex: 9999
+#   mobile: false
 
 inject:
   head:
