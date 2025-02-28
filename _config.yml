@@ -4,8 +4,8 @@
 
 # Site
 title: Vandeursa's Blog
-subtitle: '小标题示例'
-description: '描述示例'
+subtitle: ''
+description: ''
 keywords: [AI, 机器学习, 深度学习, 人工智能, 机器人, 无人驾驶, 语音识别, 计算机视觉, 自然语言处理, 机器翻译, 具身智能]
 author: LuQi
 language: en
