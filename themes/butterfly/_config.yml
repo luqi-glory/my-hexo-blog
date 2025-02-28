@@ -55,7 +55,6 @@
   tag_per_img:
   category_img:
   category_per_img:
-  category_per_img:
     - category name: 测试
       img: /img/tech_cover.jpg
     - category name: 机器学习
