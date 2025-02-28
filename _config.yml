@@ -9,7 +9,7 @@ description: '描述示例'
 keywords: [AI, 机器学习, 深度学习, 人工智能, 机器人, 无人驾驶, 语音识别, 计算机视觉, 自然语言处理, 机器翻译, 机器人]
 author: LuQi
 language: en
-timezone: Asia/Beijing
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
