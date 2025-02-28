@@ -68,9 +68,7 @@
     index_enable: true
     aside_enable: true
     archives_enable: true
-    default_cover:
-      - /img/AI.jpg  # 修改点10：确保 source/img/lq.jpg 存在，否则替换
-  
+    default_cover:  
   error_img:
     flink: /img/friend_404.gif  # 修改点11：确保 source/img/friend_404.gif 存在，否则替换
     post_page: /img/hack.jpg  # 修改点12：确保 source/img/404.jpg 存在，否则替换
