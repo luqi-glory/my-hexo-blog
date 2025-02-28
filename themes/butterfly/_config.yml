@@ -37,7 +37,7 @@ social:
 # --------------------------------------
 # Image Settings
 # --------------------------------------
-# favicon: /img/404.jpg  # 修改点4：确保 source/img/lq.jpg 存在，否则替换
+favicon: /img/lq.jpg  # 修改点4：确保 source/img/lq.jpg 存在，否则替换
 
 avatar:
   img: /img/hack.jpg  # 修改点5：确保 source/img/lq.jpg 存在，否则替换
