@@ -56,7 +56,7 @@
   category_img:
   category_per_img:
   
-  footer_img: /img/lq.jpg  # 修改点9：确保 source/img/lq.jpg 存在，否则替换
+  footer_img: /img/hack.jpg  # 修改点9：确保 source/img/lq.jpg 存在，否则替换
   
   background: "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)"
   
