@@ -1,372 +1,346 @@
-# --------------------------------------
-# Hexo Butterfly Theme Configuration
-# --------------------------------------
+# --------------------------------------  
+# Hexo Butterfly Theme Configuration  
+# --------------------------------------  
 
-# --------------------------------------
-# Navigation Settings
-# --------------------------------------
-  nav:
-    logo: 
-    display_title: true
-    fixed: true
-  
-  menu:
-    Home: / || fas fa-home
-    List||fas fa-list:
-      Music: /music/ || fas fa-music
-      Movie: /movies/ || fas fa-video
-  
-  # --------------------------------------
-  # Code Blocks Settings
-  # --------------------------------------
-  code_blocks:
-    theme: ocean
-    macStyle: true
-    height_limit: 400
-    word_wrap: true
-    copy: true
-    language: true
-    shrink: true
-    fullpage: false
-  
-  # Social media links
-  social:
-    fab fa-github: https://github.com/luqi-glory/luqi-glory || Github || '#24292e'  # 修改点2：替换为你的 GitHub
-    fas fa-envelope: mailto:luqiglory@gmail.com || Email || '#4a7dbe'  # 修改点3：替换为你的邮箱
-  
-  # --------------------------------------
-  # Image Settings
-  # --------------------------------------
-  favicon: /img/lq.jpg  # 修改点4：确保 source/img/lq.jpg 存在，否则替换
-  
-  avatar:
-    img: /img/hack.jpg  # 修改点5：确保 source/img/lq.jpg 存在，否则替换
-    effect: true
-  
-  disable_top_img: false
-  
-  default_top_img: /img/hack.jpg  # 修改点6：确保 source/img/lq.jpg 存在，否则替换
-  
-  index_img: /img/hack.jpg  # 修改点7：确保 source/img/lq.jpg 存在，否则替换
-  
-  archive_img: /img/hack.jpg  # 修改点8：确保 source/img/lq.jpg 存在，否则替换
-  
-  tag_img:
-  tag_per_img:
-  category_img:
-  category_per_img:
-    - category name: 测试
-      img: /img/tech_cover.jpg
-    - category name: 机器学习
-      img: /img/download.jpg
-  
-  footer_img: /img/hack.jpg  # 修改点9：确保 source/img/lq.jpg 存在，否则替换
-  
-  background: "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)"
-  
-  cover:
-    index_enable: true
-    aside_enable: true
-    archives_enable: true
-    default_cover: []  # 移除 /img/AI.jpg
-  
-  error_img:
-    flink: /img/friend_404.gif  # 修改点11：确保 source/img/friend_404.gif 存在，否则替换
-    post_page: /img/hack.jpg  # 修改点12：确保 source/img/404.jpg 存在，否则替换
-  
-  error_404:
-    enable: true
-    subtitle: 'Oops! 页面走丢了'
-    background: /img/lq.jpg  # 修改点13：确保 source/img/404_bg.jpg 存在，否则替换
-  
-  post_meta:
-    page:
-      date_type: created
-      date_format: date
-      categories: true
-      tags: false
-      label: true
-    post:
-      position: center
-      date_type: both
-      date_format: date
-      categories: true
-      tags: true
-      label: true
-  
-  # --------------------------------------
-  # Index page settings
-  # --------------------------------------
-  index_site_info_top: 50%
-  index_top_img_height: 400px
-  
-  subtitle:
-    enable: true
-    effect: true
-    typed_option:
-      typeSpeed: 50
-    source: false
-    sub:
-      - "人即一切"
-      - "Explore, Dream, Discover."
-  
-  index_layout: 4
-  
-  index_post_content:
-    method: 3
-    length: 300
-  
-  # --------------------------------------
-  # Post Settings
-  # --------------------------------------
-  toc:
-    post: true
-    page: false
-    number: true
-    expand: true
-    style_simple: false
-    scroll_percent: true
-  
-  post_copyright:
-    enable: true
-    decode: false
-    author_href: https://yourwebsite.com  # 修改点14：替换为你的网站链接
-    license: CC BY-NC-SA 4.0
-    license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
-  
-  reward:
-    enable: false
-  
-  post_edit:
-    enable: false
-  
-  related_post:
-    enable: true
-    limit: 6
-    date_type: created
-  
-  post_pagination: 1
-  
-  noticeOutdate:
-    enable: true
-    style: flat
-    limit_day: 365
-    position: top
-    message_prev: "本文已超过"
-    message_next: "未更新，可能已过时。"
-  
-  # --------------------------------------
-  # Footer Settings
-  # --------------------------------------
-  footer:
-    owner:
-      enable: true
-      since: 2019
-    custom_text: "Powered by Love & Coffee"
-    copyright: true
-  
-  # --------------------------------------
-  # Aside Settings
-  # --------------------------------------
-  aside:
-    enable: true
-    hide: false
-    button: true
-    mobile: true
-    position: right
-    display:
-      archive: true
-      tag: true
-      category: true
-    card_author:
-      enable: true
-      description: "一个热爱代码与生活的家伙"
-      button:
-        enable: true
-        icon: fab fa-github
-        text: "访问我的 GitHub"
-        link: https://github.com/luqi-glory/luqi-glory  # 修改点15：替换为你的 GitHub
-    card_announcement:
-      enable: true
-      content: "欢迎体验我的新作品！"
-    card_recent_post:
-      enable: true
-      limit: 5
-      sort: date
-    card_newest_comments:
-      enable: false
-    card_categories:
-      enable: true
-      limit: 8
-      expand: true
-    card_tags:
-      enable: true
-      limit: 20
-      color: true
-      orderby: random
-      order: 1
-    card_archives:
-      enable: true
-      type: monthly
-      format: MMMM YYYY
-      order: -1
-      limit: 8
-    card_post_series:
-      enable: true
-      series_title: false
-      orderBy: 'date'
-      order: -1
-    card_webinfo:
-      enable: true
-      post_count: true
-      last_push_date: true
-  
-  # --------------------------------------
-  # Bottom right button
-  # --------------------------------------
-  rightside_bottom: 20px
-  
-  translate:
-    enable: false
-  
-  readmode: true
-  
-  darkmode:
-    enable: true
-    button: true
-    autoChangeMode: 1
-  
-  rightside_scroll_percent: true
-  
-  rightside_item_order:
-    enable: false
-  
-  # --------------------------------------
-  # Global Settings
-  # --------------------------------------
-  anchor:
-    auto_update: true
-    click_to_scroll: true
-  
-  photofigcaption: true
-  
-  copy:
-    enable: true
-    copyright:
-      enable: true
-      limit_count: 100
-  
-  wordcount:
-    enable: true
-    post_wordcount: true
-    min2read: true
-    total_wordcount: true
-  
-  busuanzi:
-    site_uv: true
-    site_pv: true
-    page_pv: true
-  
-  # --------------------------------------
-  # Math
-  # --------------------------------------
-  math:
-    use: katex
-    per_page: false
-  
-  # --------------------------------------
-  # Search
-  # --------------------------------------
-  search:
-    use: local_search  # 修改点16：确保已安装 hexo-generator-search，否则注释掉
-    placeholder: "搜索我的世界..."
-  
-  local_search:
-    preload: true
-    top_n_per_article: 1
-    unescape: false
-  
-  # --------------------------------------
-  # Share System
-  # --------------------------------------
-  share:
-    use: sharejs
-    sharejs:
-      sites: facebook,twitter,weibo,qq
-  
-  # --------------------------------------
-  # Comments System
-  # --------------------------------------
-  comments:
-    use: Valine  # 修改点17：确保已配置 appId 和 appKey，否则注释掉
-    text: true
-    lazyload: false
-    count: true
-    card_post_count: true
-  
-  valine:
-    appId:  # 修改点18：填入你的 LeanCloud appId，否则注释掉
-    appKey:  # 修改点19：填入你的 LeanCloud appKey，否则注释掉
-    avatar: retro
-    serverURLs:
-    visitor: true
-  
-  # --------------------------------------
-  # Beautify / Effect
-  # --------------------------------------
-  theme_color:
-    enable: true
-    main: "#42A5F5"
-    paginator: "#0288D1"
-    button_hover: "#FF5722"
-    text_selection: "#0288D1"
-    link_color: "#1976D2"
-    meta_color: "#757575"
-    hr_color: "#B0BEC5"
-    code_foreground: "#EF5350"
-    code_background: "#ECEFF1"
-    toc_color: "#0288D1"
-    blockquote_padding_color: "#42A5F5"
-    blockquote_background_color: "#E3F2FD"
-    scrollbar_color: "#42A5F5"
-    meta_theme_color_light: "#FFFFFF"
-    meta_theme_color_dark: "#212121"
-  
-  category_ui: index
-  tag_ui: index
-  
-  rounded_corners_ui: true
-  
-  text_align_justify: true
-  
-  mask:
-    header: true
-    footer: true
-  
-  preloader:
-    enable: true
-    source: 2
-    pace_css_url: https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js
-  
-  enter_transitions: true
-  
-  display_mode: light
-  
-  # --------------------------------------
-  # Lightbox Settings
-  # --------------------------------------
-  lightbox: fancybox  # 修改点20：确保主题支持，否则注释掉
-  
-  # --------------------------------------
-  # Other Settings
-  # --------------------------------------
-  # fireworks:
-  #   enable: true
-  #   zIndex: 9999
-  #   mobile: false
-  
-  inject:
-    head:
-      - <meta name="description" content="我的 Hexo 博客，分享生活与技术">
-    bottom:
-      - <script>console.log("欢迎访问我的博客！");</script>
+# --------------------------------------  
+# Navigation Settings  
+# --------------------------------------  
+nav:  
+  logo:   
+  display_title: true  
+  fixed: true  
+
+menu:  
+  Archives: /archives/ || fas fa-archive  
+  Thinkwave-AI: https://ugly-alpha.vercel.app/ || fas fa-robot  
+
+# --------------------------------------  
+# Code Blocks Settings  
+# --------------------------------------  
+code_blocks:  
+  theme: ocean  
+  macStyle: true  
+  height_limit: 400  
+  word_wrap: true  
+  copy: true  
+  language: true  
+  shrink: true  
+  fullpage: false  
+
+# Social media links  
+social:  
+  fab fa-github: https://github.com/luqi-glory || Github || '#24292e'  
+  fas fa-envelope: mailto:luqiglory@gmail.com || Email || '#4a7dbe'  
+
+# --------------------------------------  
+# Image Settings  
+# --------------------------------------  
+favicon: /img/lq.jpg  
+
+avatar:  
+  img: /img/hack.jpg  
+  effect: false  
+
+disable_top_img: false  
+
+default_top_img: /img/hack.jpg  
+background_img: /img/hack.jpg  
+
+index_img: /img/hack.jpg  
+archive_img: /img/hack.jpg  
+
+footer_img: /img/hack.jpg  
+
+background: "url('/img/hack.jpg') no-repeat center center fixed"  
+background_size: cover  
+
+cover:  
+  index_enable: true  
+  aside_enable: true  
+  archives_enable: true  
+  default_cover: []  
+
+error_img:  
+  flink: /img/friend_404.gif  
+  post_page: /img/hack.jpg  
+
+error_404:  
+  enable: true  
+  subtitle: 'Oops! 页面走丢了'  
+  background: /img/lq.jpg  
+
+post_meta:  
+  page:  
+    date_type: created  
+    date_format: date  
+    label: true  
+  post:  
+    position: center  
+    date_type: both  
+    date_format: date  
+    label: true  
+
+# --------------------------------------  
+# Index page settings  
+# --------------------------------------  
+index_site_info_top: 50%  
+index_top_img_height: 400px  
+
+subtitle:  
+  enable: true  
+  effect: true  
+  typed_option:  
+    typeSpeed: 50  
+  source: false  
+  sub:  
+    - "思如潮浪"  
+    - "Embrace your waves of thought"  
+
+index_layout: 4  
+
+index_post_content:  
+  method: 3  
+  length: 300  
+
+# --------------------------------------  
+# Post Settings  
+# --------------------------------------  
+toc:  
+  post: true  
+  page: false  
+  number: true  
+  expand: true  
+  style_simple: false  
+  scroll_percent: true  
+
+post_copyright:  
+  enable: true  
+  decode: false  
+  author_href: https://yourwebsite.com  
+  license: CC BY-NC-SA 4.0  
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/  
+
+reward:  
+  enable: false  
+
+post_edit:  
+  enable: false  
+
+related_post:  
+  enable: true  
+  limit: 6  
+  date_type: created  
+
+post_pagination: 1  
+
+noticeOutdate:  
+  enable: true  
+  style: flat  
+  limit_day: 365  
+  position: top  
+  message_prev: "本文已超过"  
+  message_next: "未更新，可能已过时。"  
+
+# --------------------------------------  
+# Footer Settings  
+# --------------------------------------  
+footer:  
+  owner:  
+    enable: true  
+    since: 2019  
+  custom_text: "Powered by Love & Coffee"  
+  copyright: true  
+
+# --------------------------------------  
+# Aside Settings  
+# --------------------------------------  
+aside:  
+  enable: true  
+  hide: false  
+  button: true  
+  mobile: true  
+  position: right  
+  display:  
+    archive: true  
+  card_author:  
+    enable: true  
+    description: "一个热爱代码与生活的家伙"  
+    button:  
+      enable: true  
+      icon: fab fa-github  
+      text: "访问我的 GitHub"  
+      link: https://github.com/luqi-glory/luqi-glory  
+  card_announcement:  
+    enable: true  
+    content: "欢迎体验我的新作品！"  
+  card_recent_post:  
+    enable: true  
+    limit: 5  
+    sort: date  
+  card_newest_comments:  
+    enable: false  
+  card_archives:  
+    enable: true  
+    type: monthly  
+    format: MMMM YYYY  
+    order: -1  
+    limit: 8  
+  card_post_series:  
+    enable: true  
+    series_title: false  
+    orderBy: 'date'  
+    order: -1  
+  card_webinfo:  
+    enable: true  
+    post_count: true  
+    last_push_date: true  
+
+# --------------------------------------  
+# Bottom right button  
+# --------------------------------------  
+rightside_bottom: 20px  
+
+translate:  
+  enable: false  
+
+readmode: true  
+
+darkmode:  
+  enable: true  
+  button: true  
+  autoChangeMode: 1  
+
+rightside_scroll_percent: false  
+
+# --------------------------------------  
+# Global Settings  
+# --------------------------------------  
+anchor:  
+  auto_update: true  
+  click_to_scroll: true  
+
+photofigcaption: true  
+
+copy:  
+  enable: true  
+  copyright:  
+    enable: true  
+    limit_count: 100  
+
+wordcount:  
+  enable: true  
+  post_wordcount: true  
+  min2read: true  
+  total_wordcount: true  
+
+busuanzi:  
+  site_uv: true  
+  site_pv: true  
+  page_pv: false  
+
+# --------------------------------------  
+# Math  
+# --------------------------------------  
+math:  
+  use: katex  
+  per_page: false  
+
+# --------------------------------------  
+# Search  
+# --------------------------------------  
+search:  
+  use: local_search  
+  placeholder: "搜索我的世界..."  
+
+local_search:  
+  preload: true  
+  top_n_per_article: 1  
+  unescape: false  
+
+# --------------------------------------  
+# Share System  
+# --------------------------------------  
+share:  
+  use: sharejs  
+  sharejs:  
+    sites: facebook,twitter,weibo,qq  
+
+# --------------------------------------  
+# Comments System  
+# --------------------------------------  
+comments:  
+  use: Valine  
+  text: true  
+  lazyload: false  
+  count: true  
+  card_post_count: true  
+
+valine:  
+  appId:  # 请填入你的 LeanCloud appId  
+  appKey:  # 请填入你的 LeanCloud appKey  
+  avatar: retro  
+  serverURLs:  
+  visitor: true  
+
+# --------------------------------------  
+# Beautify / Effect  
+# --------------------------------------  
+theme_color:  
+  enable: true  
+  main: "#42A5F5"  
+  paginator: "#0288D1"  
+  button_hover: "#FF5722"  
+  text_selection: "#0288D1"  
+  link_color: "#1976D2"  
+  meta_color: "#757575"  
+  hr_color: "#B0BEC5"  
+  code_foreground: "#EF5350"  
+  code_background: "#ECEFF1"  
+  toc_color: "#0288D1"  
+  blockquote_padding_color: "#42A5F5"  
+  blockquote_background_color: "#E3F2FD"  
+  scrollbar_color: "#42A5F5"  
+  meta_theme_color_light: "#FFFFFF"  
+  meta_theme_color_dark: "#212121"  
+
+category_ui: index  
+tag_ui: index  
+
+rounded_corners_ui: true  
+
+text_align_justify: true  
+
+mask:  
+  header: true  
+  footer: true  
+
+preloader:  
+  enable: true  
+  source: 2  
+  pace_css_url: https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js  
+
+enter_transitions: true  
+
+display_mode: light  
+
+# --------------------------------------  
+# Lightbox Settings  
+# --------------------------------------  
+lightbox: fancybox  
+
+# --------------------------------------  
+# Other Settings  
+# --------------------------------------  
+inject:  
+  head:  
+    - <meta name="description" content="我的 Hexo 博客，分享生活与技术">  
+  bottom:  
+    - |  
+      <script>  
+        document.addEventListener('DOMContentLoaded', function() {  
+          fetch('/ai-chat.js')  
+            .then(res => res.json())  
+            .then(data => console.log('AI返回的数据：', data))  
+            .catch(err => console.error('调用 AI 接口失败：', err));  
+        });  
+      </script>
