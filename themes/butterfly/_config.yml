@@ -161,7 +161,7 @@ aside:
   mobile: true  
   position: right  
   display:  
-    archive: true  
+    archive: true  # 保留归档功能  
   card_author:  
     enable: true  
     description: "一个热爱代码与生活的家伙"  
@@ -169,7 +169,7 @@ aside:
       enable: true  
       icon: fab fa-github  
       text: "访问我的 GitHub"  
-      link: https://github.com/luqi-glory/luqi-glory  
+      link: https://github.com/luqi-glory 
   card_announcement:  
     enable: true  
     content: "欢迎体验我的新作品！"  
@@ -177,23 +177,16 @@ aside:
     enable: true  
     limit: 5  
     sort: date  
-  card_newest_comments:  
-    enable: false  
   card_archives:  
     enable: true  
     type: monthly  
     format: MMMM YYYY  
     order: -1  
     limit: 8  
-  card_post_series:  
-    enable: true  
-    series_title: false  
-    orderBy: 'date'  
-    order: -1  
   card_webinfo:  
     enable: true  
     post_count: true  
-    last_push_date: true  
+    last_push_date: true 
 
 # --------------------------------------  
 # Bottom right button  
