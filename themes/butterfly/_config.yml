@@ -172,7 +172,7 @@ aside:
       link: https://github.com/luqi-glory 
   card_announcement:  
     enable: true  
-    content: "欢迎体验我的新作品！"  
+    content: "滴滴！右上角Thinkwave-AI上线"  
   card_recent_post:  
     enable: true  
     limit: 5  
